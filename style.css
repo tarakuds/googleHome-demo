@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(66, 66, 66);
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+heading{
+    /* padding: 2em; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+    margin-left: auto;
+    padding: 1rem;
+
+}
+
+nav img{
+    border-radius: 50%;
+}
+main{
+    margin: 5.8% auto;
+    width: 50%;
+    text-align: center;
+}
+
+.google-offers a{
+    color: blue;
+    margin: 10px;
+}
+.button-container{
+    margin: 3%;
+    /* display: flex;
+    justify-content: space-around; */
+}
+#input-field{
+    width: 95%;
+    padding: 2% 0;
+    box-shadow: 10px 4px 3px rgb(80, 79, 79);
+    border-radius: 35px;
+    border: 1px solid grey;
+}
+input{
+    width: 85%;
+    padding: 10px 0;
+    border: none;
+}
+/* input:active{
+    border: none;
+}
+input::selection{
+    border: none;
+} */
+
+button{
+    padding: 10px;
+    width: 180px;
+    text-transform: capitalize;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+footer a{
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+.div-1, .div-2{
+    background-color: rgb(192, 189, 189);
+    padding: 10px 2%;
+}
+.div-1{
+    border-bottom: 1px solid rgb(161, 159, 159);
+}
+.div-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
